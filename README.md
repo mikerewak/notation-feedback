@@ -9,7 +9,8 @@ This repository contains reporting instructions only; application source code is
 - [Report a security vulnerability privately](https://github.com/mikerewak/notation-feedback/security/advisories/new)
 
 In the app, use **Help → Report a Problem…** when available. Review the report before opening GitHub.
-A GitHub account is required to submit an issue. You can also copy or save the report locally.
+A GitHub account is required to submit an issue. If you do not use GitHub, copy or save the report
+and send it yourself to [hi@stavewave.com](mailto:hi@stavewave.com), the existing StaveWave support address.
 
 ## What makes a useful report
 
