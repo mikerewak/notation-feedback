@@ -1,0 +1,71 @@
+{
+  "name": "Bug report",
+  "description": "Report a problem with StaveWave Notation.",
+  "labels": [
+    "bug",
+    "triage"
+  ],
+  "body": [
+    {
+      "type": "markdown",
+      "attributes": {
+        "value": "Reports and attachments are public. Remove private information and share only score material you have permission to publish. For security vulnerabilities, use the private security reporting link in the template chooser."
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "problem",
+      "attributes": {
+        "label": "What went wrong?",
+        "description": "Describe the problem and its impact."
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "steps",
+      "attributes": {
+        "label": "Steps to reproduce",
+        "description": "List the actions that lead to the problem."
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "expected",
+      "attributes": {
+        "label": "Expected result",
+        "description": "What should have happened?"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "environment",
+      "attributes": {
+        "label": "App and system details",
+        "description": "Paste the app-generated report, or provide app version/build and macOS version. Review any pasted details first."
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "attachments",
+      "attributes": {
+        "label": "Optional example or screenshot",
+        "description": "Use a minimal example. Do not attach confidential scores or unreviewed logs."
+      },
+      "validations": {
+        "required": false
+      }
+    }
+  ]
+}

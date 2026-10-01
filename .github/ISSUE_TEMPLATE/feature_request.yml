@@ -1,0 +1,49 @@
+{
+  "name": "Feature request",
+  "description": "Suggest an improvement to a musical workflow.",
+  "labels": [
+    "enhancement",
+    "triage"
+  ],
+  "body": [
+    {
+      "type": "markdown",
+      "attributes": {
+        "value": "Reports and attachments are public. Remove private information and share only score material you have permission to publish. For security vulnerabilities, use the private security reporting link in the template chooser."
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "workflow",
+      "attributes": {
+        "label": "What are you trying to do?",
+        "description": "Describe the musical task and the current difficulty."
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "proposal",
+      "attributes": {
+        "label": "Suggested improvement",
+        "description": "Explain the result you would like."
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "workaround",
+      "attributes": {
+        "label": "Current workaround",
+        "description": "How do you handle this today?"
+      },
+      "validations": {
+        "required": false
+      }
+    }
+  ]
+}
